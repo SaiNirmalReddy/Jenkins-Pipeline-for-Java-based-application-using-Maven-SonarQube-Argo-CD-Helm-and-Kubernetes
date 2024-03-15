@@ -8,13 +8,12 @@ Jenkins server
 Kubernetes cluster
 Helm package manager
 Argo CD
-
 Steps:
 1. Install the necessary Jenkins plugins:
-   1.1 Git plugin
-   1.2 Maven Integration plugin
-   1.3 Pipeline plugin
-   1.4 Kubernetes Continuous Deploy plugin
+ 1.1 Git plugin
+ 1.2 Maven Integration plugin
+ 1.3 Pipeline plugin
+ 1.4 Kubernetes Continuous Deploy plugin
 2. Create a new Jenkins pipeline:
    2.1 In Jenkins, create a new pipeline job and configure it with the Git repository URL for the Java application.
    2.2 Add a Jenkins file to the Git repository to define the pipeline stages.
