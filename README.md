@@ -88,7 +88,7 @@ And at the end of the "Continuous Integration process, we have a Image ready wit
 
 -> Now, you created a new Image version in your CI pipeline and the question is how will your "Argo Cd or Gitops tool" come to know there is a new image in the registry or any Helm chart should be updated, for this we have two ways, one is we have a very good tool called as "Argo Image Updater" will continuously monitor the "Dockerhub or container registries" and whenever a new Image is pushed to your container registry, it will notify and directly update the Git repository with the new version  in the pod.yml. Deployment.yml or if your using helm charts also it have capability to update the changes in Helmcharts as well. 
 
--> Argo Image Updater - step 1.  monitoring the container registries and step 2.  It is updating the Github repository .
+-> Argo Image Updater - step 1.  monitoring the container registries and step 2.  It is updating the Github repository . 
 
 And then we have the "ArgoCD" which is continuously watching the "Git Repository" and it says whenever there is a change in pod.yml. Deployment.yml , take these new files and deploy them to the Kubernetes cluster . 
 
