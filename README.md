@@ -1,12 +1,3 @@
-# Jenkins-Pipeline-for-Java-based-application-using-Maven-SonarQube-Argo-CD-Helm-and-Kubernetes
-Jenkins Pipeline for Java based application using Maven, SonarQube, Argo CD, Helm and Kubernetes
-
-
-Jenkins Pipeline for Java based application using Maven, SonarQube, Argo CD, Helm and Kubernetes
-
-From <https://github.com/I-am-Gavini/Jenkins-Zero-To-Heroo/tree/main/java-maven-sonar-argocd-helm-k8s> 
-
-
 
 Here are the step-by-step details to set up an end-to-end Jenkins pipeline for a Java application using SonarQube, Argo CD, Helm, and Kubernetes:
 
@@ -17,8 +8,6 @@ Jenkins server
 Kubernetes cluster
 Helm package manager
 Argo CD
-
-
 
 Steps:
 1. Install the necessary Jenkins plugins:
