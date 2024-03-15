@@ -60,13 +60,11 @@ Steps:
    7.2 Monitor the pipeline stages and fix any issues that arise.
 This end-to-end Jenkins pipeline will automate the entire CI/CD process for a Java application, from code checkout to production deployment, using popular tools like SonarQube, Argo CD, Helm, and Kubernetes.
 
-From <https://github.com/I-am-Gavini/Jenkins-Zero-To-Heroo/tree/main/java-maven-sonar-argocd-helm-k8s> 
-
 
 
 Interview Questions
 
-	1. Git - Jenkins , There is a Git repository and how does changes and modifications are notified by Jenkins and how the Jenkins pipeline is triggered?
+1. Git - Jenkins , There is a Git repository and how does changes and modifications are notified by Jenkins and how the Jenkins pipeline is triggered?
 Ans : We have something called "webhooks" in Jenkins and this webhook URL is used to configure by putting this URL in Github Settings by that Jenkins will come to know for which action , webhook needs to be triggered like by some actions like "commit,push" . Whenever Developer creates a pull request then "Git" will send the notifications to the Jenkins and ask Jenkins to trigger the pipeline.
 
 Hereafter, Devops Engineer role comes into the picture,
